@@ -11,7 +11,7 @@
             "column": "col-11",
             "style": "padding: 0"
         },
-        "style": "background-color: beige",
+        "style": "background-color: whitesmoke",
         "label": "Menu",
         "anchor": "MENU",
         "title": {
@@ -284,10 +284,10 @@
       },
       "recomendnedSection": {
         "type": "ITEMS",
-        "style": "background-color: whitesmoke",
+        "style": "",
         "grid": {
             "column": "col-11",
-            "style": ""
+            "style": "background-color: whitesmoke"
         },
         "label": "Moje polecenia",
         "anchor": "recomendation",
