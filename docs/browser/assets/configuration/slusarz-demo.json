@@ -1,18 +1,38 @@
 {
     "title": "Ślusarz",
-    "menuSection": {
-      "title": {
-        "content": "Dominik Ślusarz",
-        "style": "color: black; font-weight: bold;"
-      },
-      "itemsContainer": {
-        "itemsStyle": "ms-auto"
-      },
-      "style": ""
+    "layout": {
+      "type": "BORDERED",
+       "leftBorderStyle": "background-color: black" 
     },
     "sections": {
+      "menuSection": {
+        "type": "MENU",
+        "grid": {
+            "column": "col-11",
+            "style": "padding: 0"
+        },
+        "style": "background-color: beige",
+        "label": "Menu",
+        "anchor": "MENU",
+        "title": {
+            "content": "Name Surname"
+        },
+        "itemsContainer": {
+            "itemsStyle": "ms-auto",
+            "items": [
+                {"label": "About me", "anchor": "aboutme"},
+                {"label": "Umiejętności", "anchor": "skills"},
+                {"label": "Moje projekty", "anchor": "projects"},
+                {"label": "Życiorys", "anchor": "timelaps"}
+            ]
+        }
+    },
       "aboutMe": {
         "type": "ABOUT_ME",
+        "grid": {
+            "column": "col-11",
+            "style": ""
+        },
         "style": "",
         "label": "O mnie",
         "anchor": "aboutme",
@@ -55,7 +75,11 @@
       },
       "projects": {
         "type": "PROJECTS",
-        "style": "background-color: whitesmoke",
+        "grid": {
+            "column": "col-11",
+            "style": "background-color: whitesmoke"
+        },
+        "style": "",
         "label": "Moje projekty",
         "anchor": "projects",
         "additionalInfo": "Pracowałem nad dziesiątkami projektów, więc wybrałem dla Ciebie tylko te najnowsze.",
@@ -70,6 +94,7 @@
               "content": "W trakcie pisania..."
             },
             "imageChangeInterval": 5000,
+            "sourceCode": "https://github.com/Dominik93/recipes-manager",
             "demoUrl": "https://dominik93.github.io/recipes-manager/demo/browser/",
             "images": [
               {
@@ -104,6 +129,7 @@
               "content": "W trakcie pisania..."
             },
             "imageChangeInterval": 5000,
+            "sourceCode": "https://github.com/Dominik93/poker-after-dark",
             "demoUrl": "https://dominik93.github.io/poker-after-dark/#/",
             "images": [
               {
@@ -133,6 +159,7 @@
               "content": "W trakcie pisania..."
             },
             "imageChangeInterval": 5000,
+            "sourceCode": "https://github.com/Dominik93/personal-space",
             "demoUrl": "https://dominik93.github.io/personal-space",
             "images": [
               {
@@ -146,6 +173,10 @@
       },
       "skillsSection": {
         "type": "SKILLS",
+        "grid": {
+            "column": "col-11",
+            "style": ""
+        },
         "style": "",
         "label": "Umiejętności",
         "anchor": "skills",
@@ -184,7 +215,11 @@
       },
       "itemSection": {
         "type": "ITEMS",
-        "style": "background-color: whitesmoke",
+        "grid": {
+            "column": "col-11",
+            "style": "background-color: whitesmoke"
+        },
+        "style": "",
         "label": "I Inne",
         "anchor": "items",
         "items": [
@@ -210,6 +245,10 @@
       },
       "timeline": {
         "type": "TIMELINE",
+        "grid": {
+            "column": "col-11",
+            "style": ""
+        },
         "style": "",
         "label": "Życiorys",
         "anchor": "timelaps",
@@ -246,6 +285,10 @@
       "recomendnedSection": {
         "type": "ITEMS",
         "style": "background-color: whitesmoke",
+        "grid": {
+            "column": "col-11",
+            "style": ""
+        },
         "label": "Moje polecenia",
         "anchor": "recomendation",
         "items": [
