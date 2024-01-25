@@ -169,8 +169,8 @@
           "demoUrl": "https://dominik93.github.io/personal-space",
           "images": [
             {
-              "url": "/favicon.ico",
-              "alt": "Project_3 Photo 1",
+              "url": "https://dominik93.github.io/personal-space/browser/favicon.ico",
+              "alt": "Logo",
               "style": "width: 100%;"
             }
           ]
