@@ -5,441 +5,642 @@
     "leftBorderStyle": "background-color: black"
   },
   "sections": {
-    "menuSection": {
-      "type": "MENU",
+    "menuRow": {
+      "type": "ROW",
       "grid": {
-        "column": "col-11",
-        "style": "padding: 0"
+        "style": "padding: 0 12px"
       },
-      "style": "background-color: whitesmoke",
-      "label": "Menu",
-      "anchor": "MENU",
-      "title": {
-        "content": "Dominik Ślusarz"
-      },
-      "itemsContainer": {
-        "itemsStyle": "ms-auto",
-        "items": [
-          {
-            "label": "O mnie",
-            "anchor": "aboutme"
+      "sections": {
+        "blankColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-1",
+            "style": "background-color: black"
           },
-          {
-            "label": "Umiejętności",
-            "anchor": "skills"
-          },
-          {
-            "label": "Moje projekty",
-            "anchor": "projects"
-          },
-          {
-            "label": "Życiorys",
-            "anchor": "timelaps"
-          }
-        ]
-      }
-    },
-    "aboutMe": {
-      "type": "ABOUT_ME",
-      "grid": {
-        "column": "col-11",
-        "style": ""
-      },
-      "style": "",
-      "label": "O mnie",
-      "anchor": "aboutme",
-      "description": {
-        "content": "W trakcie pisania...",
-        "style": "font-size: x-large"
-      },
-      "image": {
-        "url": "https://cdn.icon-icons.com/icons2/2805/PNG/512/man_avatar_people_glasses_boy_icon_178891.png",
-        "alt": "My Picture",
-        "style": "width: 400px; border-radius: 50%;"
-      },
-      "socialMediaStyle": "display: inline; margin-right: 15px;",
-      "socialMedia": [
-        {
-          "name": "GitHub",
-          "link": "https://github.com/Dominik93",
-          "icon": "https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-1024.png",
-          "style": "width: 50px;"
-        },
-        {
-          "name": "LinkedIn",
-          "link": "https://www.linkedin.com/in/dominikslusarz/",
-          "icon": "https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-1024.png",
-          "style": "width: 50px;"
-        },
-        {
-          "name": "Mail",
-          "link": "mailto:slusarz.dominik@gmail.com",
-          "icon": "https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/mail-512.png",
-          "style": "width: 50px;"
-        }
-      ]
-    },
-    "projects": {
-      "type": "PROJECTS",
-      "grid": {
-        "column": "col-11",
-        "style": "background-color: whitesmoke"
-      },
-      "style": "",
-      "label": "Moje projekty",
-      "anchor": "projects",
-      "additionalInfo": "Pracowałem nad dziesiątkami projektów, więc wybrałem dla tylko te najciekawsze.",
-      "projects": [
-        {
-          "name": "Recipe mananger",
-          "tag": "Web",
-          "description": {
-            "content": "Stwórz swoje własne przepisy i podziel się nimi z współlokatorami. Idźcie razem na zakupy i odznaczajcie produkty z listy!"
-          },
-          "details": {
-            "content": "W trakcie pisania..."
-          },
-          "imageChangeInterval": 5000,
-          "sourceCode": "https://github.com/Dominik93/recipes-manager",
-          "demoUrl": "https://dominik93.github.io/recipes-manager/demo/browser/",
-          "images": [
-            {
-              "url": "https://dominik93.github.io/recipes-manager/demo/browser/favicon.ico",
-              "alt": "Logo",
-              "style": "width: 100%;"
-            },
-            {
-              "url": "https://github.com/Dominik93/recipes-manager/blob/main/demo/recipes.png?raw=true",
-              "alt": "Recipes",
-              "style": "width: 100%;"
-            },
-            {
-              "url": "https://github.com/Dominik93/recipes-manager/blob/main/demo/recipe.png?raw=true",
-              "alt": "Recipe",
-              "style": "width: 100%;"
-            },
-            {
-              "url": "https://github.com/Dominik93/recipes-manager/blob/main/demo/cart.png?raw=true",
-              "alt": "Cart",
-              "style": "width: 100%;"
-            }
-          ]
-        },
-        {
-          "name": "Poker after dark",
-          "tag": "Web",
-          "description": {
-            "content": "Graj w pokera z znajomymi, zapisuj swoje postępy i przeglądaj statystyki."
-          },
-          "details": {
-            "content": "W trakcie pisania..."
-          },
-          "imageChangeInterval": 5000,
-          "sourceCode": "https://github.com/Dominik93/poker-after-dark",
-          "demoUrl": "https://dominik93.github.io/poker-after-dark/#/",
-          "images": [
-            {
-              "url": "https://dominik93.github.io/poker-after-dark/favicon.ico",
-              "alt": "Logo",
-              "style": "width: 100%;"
-            },
-            {
-              "url": "https://github.com/Dominik93/poker-after-dark/blob/develop/demo/table.png?raw=true",
-              "alt": "table",
-              "style": "width: 100%;"
-            },
-            {
-              "url": "https://github.com/Dominik93/poker-after-dark/blob/develop/demo/graph.png?raw=true",
-              "alt": "graph",
-              "style": "width: 100%;"
-            }
-          ]
-        },
-        {
-          "name": "Personal space",
-          "tag": "WEB",
-          "description": {
-            "content": "Stwórz własną przestrzeń. CV, portfolio czy coś specjalnego, to ty wybierasz!"
-          },
-          "details": {
-            "content": "W trakcie pisania..."
-          },
-          "imageChangeInterval": 5000,
-          "sourceCode": "https://github.com/Dominik93/personal-space",
-          "demoUrl": "https://dominik93.github.io/personal-space",
-          "images": [
-            {
-              "url": "https://dominik93.github.io/personal-space/browser/favicon.ico",
-              "alt": "Logo",
-              "style": "width: 100%;"
-            }
-          ]
-        }
-      ]
-    },
-    "skillsSection": {
-      "type": "SKILLS",
-      "grid": {
-        "column": "col-11",
-        "style": ""
-      },
-      "style": "",
-      "label": "Umiejętności",
-      "anchor": "skills",
-      "skills": [
-        {
-          "name": "Spring boot",
-          "image": {
-            "alt": "Spring boot",
-            "url": "https://cdn.freebiesupply.com/logos/large/2x/spring-3-logo-png-transparent.png",
-            "style": "width: 100%"
-          },
-          "style": "background-color: black",
-          "level": 70
-        },
-        {
-          "name": "Java",
-          "image": {
-            "alt": "Java",
-            "url": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png",
-            "style": "width: 100%"
-          },
-          "style": "background-color: black",
-          "level": 80
-        },
-        {
-          "name": "Angular",
-          "image": {
-            "alt": "Angular",
-            "url": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-512.png",
-            "style": "width: 100%"
-          },
-          "style": "background-color: black",
-          "level": 40
-        }
-      ]
-    },
-    "itemSection": {
-      "type": "ITEMS",
-      "grid": {
-        "column": "col-11",
-        "style": "background-color: whitesmoke"
-      },
-      "style": "",
-      "label": "I Inne",
-      "anchor": "items",
-      "items": [
-        {
-          "name": "Openshift",
-          "image": {
-            "alt": "Openshift",
-            "url": "https://cdn1.iconfinder.com/data/icons/carbon-design-system-vol-5/32/logo--openshift-512.png",
-            "style": "width: 50%"
-          },
-          "style": ""
-        },
-        {
-          "name": "JUnit",
-          "image": {
-            "alt": "JUnit",
-            "url": "https://junit.org/junit5/assets/img/junit5-logo.png",
-            "style": "width: 50%"
-          },
-          "style": ""
-        },
-        {
-          "name": "Python",
-          "image": {
-            "alt": "Python",
-            "url": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png",
-            "style": "width: 50%"
-          },
-          "style": ""
-        },
-        {
-          "name": "Oracle DB",
-          "image": {
-            "alt": "Oracle DB",
-            "url": "https://media.licdn.com/dms/image/D5612AQGTzGGnu886Vw/article-cover_image-shrink_720_1280/0/1680581578662?e=2147483647&v=beta&t=Jc3XYEXXsZNfua5Dy96AX17G59H2LrEj4mcGb6rWt60",
-            "style": "width: 50%"
-          },
-          "style": ""
-        },
-        {
-          "name": "Typescript",
-          "image": {
-            "alt": "Typescript",
-            "url": "https://cdn1.iconfinder.com/data/icons/brands-5/512/fi-brands-typescript-512.png",
-            "style": "width: 50%"
-          },
-          "style": ""
-        }
-        
-        
-      ]
-    },
-    "timeline": {
-      "type": "TIMELINE",
-      "grid": {
-        "column": "col-11",
-        "style": ""
-      },
-      "style": "",
-      "label": "Życiorys",
-      "anchor": "timelaps",
-      "eventsContainer": {
-        "hoverStyle": "background: whitesmoke",
-        "selectedStyle": {
-          "background-color": "#b3aeae"
-        },
-        "events": [
-          {
-            "name": "Comarch SA  & Cloud",
-            "description": "2017-10 - Obecnie",
-            "subEvents": [
-              {
-                "name": "Starszy programista",
-                "description": "",
-                "subEvents": [],
-                "details": {
-                  "content": "2021-12 - obecnie<br><ul><li>Transformacja monolitycznej bankowości internetowej na architekture mikroserisową</li><li>Praca z wykorzystaniem stacku: Java 11/17, Angular, Spring, JPA, Kafka, Oracle, Elasticsearch, Openshift</li><li>Projektowanie architektury poszczególnych obszarów bankowości internetowej</li><li>Tworzenie dokumentacji technicznej</li><li>Prowadzenie zespołu developerskiego</li></ul>"
-                }
-              },
-              {
-                "name": "Programista",
-                "description": "",
-                "subEvents": [],
-                "details": {
-                  "content": "2018-01 - 2020-12<br><ul><li>Utrzymanie i rozwój bankowości internetowej klientów korporacyjnych</li><li>Praca z wykorzystaniem stacku: Java 9/11, JMS, Spring, JPA, Oracle, WebSphere</li><li>Udział w wypracowaniu rozwiązań technicznych</li><li>Konsultacje analityczne</li><li>Prowadzenie programu stażowego i mentoring młodszych pracowników</li></ul>"
-                }
-              },
-              {
-                "name": "Młodszy programista",
-                "description": "",
-                "subEvents": [],
-                "details": {
-                  "content": "2017-10 - 2018-01<br><ul><li>Utrzymanie i rozwój bankowości internetowej klientów korporacyjnych</li><li>Praca z wykorzystaniem stacku: Java 9, EJB, JMS, Spring, Oracle, WebSphere</li><li>Udział w dwu tygodniowych cyklach wytwarzania oprogramowania</li></ul>"
-                }
-              }
-            ],
-            "details": {
-              "content": ""
-            }
-          },
-          {
-            "name": "Ericpol Telecom Sp. z o.o.",
-            "description": "2015-07 - 2016-12",
-            "subEvents": [
-              {
-                "name": "Młodszy programista",
-                "description": "",
-                "subEvents": [],
-                "details": {
-                  "content": "2015-10 - 2016-12<br><ul><li>Wywtarzanie oprogramowania w metodykach zwinnych(Agile, SCRUM)</li><li>Projekt i implementacja webowego systemu korporacyjnego(Java 8, EJB, JSF, MySQL, JBoss EAP)</li><li>Tworzenie dokumentacji technicznej i manuala</li><li>Pisanie testów jednostkowych oraz manualne testowanie aplikacji</li><li>Udział w kursach i szkoleniach wprowadzających do telekomunikacji oraz LTE</li></ul>"
-                }
-              },
-              {
-                "name": "Staż",
-                "description": "",
-                "subEvents": [],
-                "details": {
-                  "content": "2015-07 - 2015-10<br><ul><li>Wywtarzanie oprogramowania w metodykach zwinnych(Agile, SCRUM)</li><li>Projekt i implementacja webowego systemu korporacyjnego(Java 8, EJB, JSF, MySQL, JBoss EAP)</li><li>Tworzenie dokumentacji technicznej i manuala</li><li>Pisanie testów jednostkowych oraz manualne testowanie aplikacji</li><li>Udział w kursach i szkoleniach wprowadzających do telekomunikacji oraz LTE</li></ul>"
-                }
-              }
-            ],
-            "details": {
-              "content": ""
-            }
-          },
-          {
-            "name": "Politechnika Krakowska im. Tadeusza Kościuszki",
-            "description": "2012-10 - 2018-05",
-            "subEvents": [
-              {
-                "name": "Studia magisterskie",
-                "description": "",
-                "subEvents": [],
-                "details": {
-                  "content": "2012.10 – 2016.02<br>Wydziale Fizyki, Matematyki i Informatyki<br>Kierunek: informatyka<br>Specjalność: informatyka stosowana<br>Praca pt. System wspomagający tworzenie zespołu projektowego"
-                }
-              },
-              {
-                "name": "Studia inżynierskie",
-                "description": "",
-                "subEvents": [],
-                "details": {
-                  "content": "2016.02 - 2018.05<br>Wydziale Fizyki, Matematyki i Informatyki<br>Kierunek: informatyka<br>Praca pt. Aplikacja mobilna wspomagająca zarządzanie budżetem domowym"
-                }
-              }
-            ],
-            "details": {
-              "content": ""
+          "sections": {
+            "blank": {
+              "type": "BLANK"
             }
           }
-        ]
+        },
+        "contentColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-11",
+            "style": "padding: 0"
+          },
+          "sections": {
+            "menuSection": {
+              "type": "MENU",
+              "grid": {
+                "column": "col-11",
+                "style": "padding: 0"
+              },
+              "style": "background-color: whitesmoke",
+              "label": "Menu",
+              "anchor": "MENU",
+              "title": {
+                "content": "Dominik Ślusarz"
+              },
+              "itemsContainer": {
+                "itemsStyle": "ms-auto",
+                "items": [
+                  {
+                    "label": "O mnie",
+                    "anchor": "aboutme"
+                  },
+                  {
+                    "label": "Umiejętności",
+                    "anchor": "skills"
+                  },
+                  {
+                    "label": "Moje projekty",
+                    "anchor": "projects"
+                  },
+                  {
+                    "label": "Życiorys",
+                    "anchor": "timelaps"
+                  }
+                ]
+              }
+            }
+          }
+        }
       }
     },
-    "recomendnedSection": {
-      "type": "ITEMS",
-      "style": "",
+    "AboutMeRow": {
+      "type": "ROW",
       "grid": {
-        "column": "col-11",
-        "style": "background-color: whitesmoke"
+        "style": "padding: 0 12px"
       },
-      "label": "Moje polecenia",
-      "anchor": "recomendation",
-      "items": [
-        {
-          "name": "Fireship",
-          "image": {
-            "alt": "Fireship",
-            "url": "https://yt3.googleusercontent.com/ytc/AIf8zZTUVa5AeFd3m5-4fdY2hEaKof3Byp8VruZ0f0FNEA=s176-c-k-c0x00ffffff-no-rj",
-            "style": "width: 50%; border-radius: 50%;",
-            "link": "https://www.youtube.com/@Fireship"
+      "sections": {
+        "blankColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-1",
+            "style": "background-color: black"
           },
-          "style": ""
+          "sections": {
+            "blank": {
+              "type": "BLANK"
+            }
+          }
         },
-        {
-          "name": "ThePrimeTime",
-          "image": {
-            "alt": "ThePrimeTime",
-            "url": "https://yt3.googleusercontent.com/ytc/AIf8zZTISnAkD2kHuVZMRVTr5QNCww-gagEU9xDdc_w6=s176-c-k-c0x00ffffff-no-rj",
-            "style": "width: 50%; border-radius: 50%;",
-            "link": "https://www.youtube.com/@ThePrimeTimeagen"
+        "contentColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-11",
+            "style": "padding: 0"
           },
-          "style": ""
-        },
-        {
-          "name": "Healthy Software Developer",
-          "image": {
-            "alt": "Healthy Software Developer",
-            "url": "https://yt3.googleusercontent.com/24WBvu3Sk6B3pWWY2icdBbDub9oIdrXlBlxIIQ60-ppwYP5b8HCg_FAZKw-IOU--12YTvwu2GA=s176-c-k-c0x00ffffff-no-rj",
-            "style": "width: 50%; border-radius: 50%;",
-            "link": "https://www.youtube.com/@HealthyDev"
-          },
-          "style": ""
-        },
-        {
-          "name": "Continuous Delivery",
-          "image": {
-            "alt": "Continuous Delivery",
-            "url": "https://yt3.googleusercontent.com/nu3_1XlfiKUpSBvWN8stJIOA_-UtUxFI-FQnNuG0AuTXpvLzo8lcA1qZNrvF-vR6qcdY59sh=s176-c-k-c0x00ffffff-no-rj",
-            "style": "width: 50%; border-radius: 50%;",
-            "link": "https://www.youtube.com/@ContinuousDelivery"
-          },
-          "style": ""
-        },
-        {
-          "name": "CodeAesthetic",
-          "image": {
-            "alt": "CodeAesthetic",
-            "url": "https://yt3.googleusercontent.com/n5SlI5Ps1SWnuI58faTPSb2HvFKO9nZJ34ztRxRa8V-gl5KyP97oI1A5YnlkRGD_BTUThREfJw=s176-c-k-c0x00ffffff-no-rj",
-            "style": "width: 50%; border-radius: 50%;",
-            "link": "https://www.youtube.com/@CodeAesthetic"
-          },
-          "style": ""
+          "sections": {
+            "aboutMe": {
+              "type": "ABOUT_ME",
+              "grid": {
+                "column": "col-11",
+                "style": ""
+              },
+              "style": "",
+              "label": "O mnie",
+              "anchor": "aboutme",
+              "description": {
+                "content": "W trakcie pisania...",
+                "style": "font-size: x-large"
+              },
+              "image": {
+                "url": "https://cdn.icon-icons.com/icons2/2805/PNG/512/man_avatar_people_glasses_boy_icon_178891.png",
+                "alt": "My Picture",
+                "style": "width: 400px; border-radius: 50%;"
+              },
+              "socialMediaStyle": "display: inline; margin-right: 15px;",
+              "socialMedia": [
+                {
+                  "name": "GitHub",
+                  "link": "https://github.com/Dominik93",
+                  "icon": "https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-1024.png",
+                  "style": "width: 50px;"
+                },
+                {
+                  "name": "LinkedIn",
+                  "link": "https://www.linkedin.com/in/dominikslusarz/",
+                  "icon": "https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-1024.png",
+                  "style": "width: 50px;"
+                },
+                {
+                  "name": "Mail",
+                  "link": "mailto:slusarz.dominik@gmail.com",
+                  "icon": "https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/mail-512.png",
+                  "style": "width: 50px;"
+                }
+              ]
+            }
+          }
         }
-      ]
+      }
+    },
+    "projectsRow": {
+      "type": "ROW",
+      "grid": {
+        "style": "padding: 0 12px"
+      },
+      "sections": {
+        "blankColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-1",
+            "style": "background-color: black"
+          },
+          "sections": {
+            "blank": {
+              "type": "BLANK"
+            }
+          }
+        },
+        "contentColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-11",
+            "style": "padding: 0"
+          },
+          "sections": {
+            "projects": {
+              "type": "PROJECTS",
+              "grid": {
+                "column": "col-11",
+                "style": "background-color: whitesmoke"
+              },
+              "style": "",
+              "label": "Moje projekty",
+              "anchor": "projects",
+              "additionalInfo": "Pracowałem nad dziesiątkami projektów, więc wybrałem dla tylko te najciekawsze.",
+              "projects": [
+                {
+                  "name": "Recipe mananger",
+                  "tag": "Web",
+                  "description": {
+                    "content": "Stwórz swoje własne przepisy i podziel się nimi z współlokatorami. Idźcie razem na zakupy i odznaczajcie produkty z listy!"
+                  },
+                  "details": {
+                    "content": "W trakcie pisania..."
+                  },
+                  "imageChangeInterval": 5000,
+                  "sourceCode": "https://github.com/Dominik93/recipes-manager",
+                  "demoUrl": "https://dominik93.github.io/recipes-manager/demo/browser/",
+                  "images": [
+                    {
+                      "url": "https://dominik93.github.io/recipes-manager/demo/browser/favicon.ico",
+                      "alt": "Logo",
+                      "style": "width: 100%;"
+                    },
+                    {
+                      "url": "https://github.com/Dominik93/recipes-manager/blob/main/demo/recipes.png?raw=true",
+                      "alt": "Recipes",
+                      "style": "width: 100%;"
+                    },
+                    {
+                      "url": "https://github.com/Dominik93/recipes-manager/blob/main/demo/recipe.png?raw=true",
+                      "alt": "Recipe",
+                      "style": "width: 100%;"
+                    },
+                    {
+                      "url": "https://github.com/Dominik93/recipes-manager/blob/main/demo/cart.png?raw=true",
+                      "alt": "Cart",
+                      "style": "width: 100%;"
+                    }
+                  ]
+                },
+                {
+                  "name": "Poker after dark",
+                  "tag": "Web",
+                  "description": {
+                    "content": "Graj w pokera z znajomymi, zapisuj swoje postępy i przeglądaj statystyki."
+                  },
+                  "details": {
+                    "content": "W trakcie pisania..."
+                  },
+                  "imageChangeInterval": 5000,
+                  "sourceCode": "https://github.com/Dominik93/poker-after-dark",
+                  "demoUrl": "https://dominik93.github.io/poker-after-dark/#/",
+                  "images": [
+                    {
+                      "url": "https://dominik93.github.io/poker-after-dark/favicon.ico",
+                      "alt": "Logo",
+                      "style": "width: 100%;"
+                    },
+                    {
+                      "url": "https://github.com/Dominik93/poker-after-dark/blob/develop/demo/table.png?raw=true",
+                      "alt": "table",
+                      "style": "width: 100%;"
+                    },
+                    {
+                      "url": "https://github.com/Dominik93/poker-after-dark/blob/develop/demo/graph.png?raw=true",
+                      "alt": "graph",
+                      "style": "width: 100%;"
+                    }
+                  ]
+                },
+                {
+                  "name": "Personal space",
+                  "tag": "WEB",
+                  "description": {
+                    "content": "Stwórz własną przestrzeń. CV, portfolio czy coś specjalnego, to ty wybierasz!"
+                  },
+                  "details": {
+                    "content": "W trakcie pisania..."
+                  },
+                  "imageChangeInterval": 5000,
+                  "sourceCode": "https://github.com/Dominik93/personal-space",
+                  "demoUrl": "https://dominik93.github.io/personal-space",
+                  "images": [
+                    {
+                      "url": "https://dominik93.github.io/personal-space/browser/favicon.ico",
+                      "alt": "Logo",
+                      "style": "width: 100%;"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "skillsRow": {
+      "type": "ROW",
+      "grid": {
+        "style": "padding: 0 12px"
+      },
+      "sections": {
+        "blankColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-1",
+            "style": "background-color: black"
+          },
+          "sections": {
+            "blank": {
+              "type": "BLANK"
+            }
+          }
+        },
+        "contentColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-11",
+            "style": "padding: 0"
+          },
+          "sections": {
+            "skillsSection": {
+              "type": "SKILLS",
+              "grid": {
+                "column": "col-11",
+                "style": ""
+              },
+              "style": "",
+              "label": "Umiejętności",
+              "anchor": "skills",
+              "skills": [
+                {
+                  "name": "Spring boot",
+                  "image": {
+                    "alt": "Spring boot",
+                    "url": "https://cdn.freebiesupply.com/logos/large/2x/spring-3-logo-png-transparent.png",
+                    "style": "width: 100%"
+                  },
+                  "style": "background-color: black",
+                  "level": 70
+                },
+                {
+                  "name": "Java",
+                  "image": {
+                    "alt": "Java",
+                    "url": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png",
+                    "style": "width: 100%"
+                  },
+                  "style": "background-color: black",
+                  "level": 80
+                },
+                {
+                  "name": "Angular",
+                  "image": {
+                    "alt": "Angular",
+                    "url": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-512.png",
+                    "style": "width: 100%"
+                  },
+                  "style": "background-color: black",
+                  "level": 40
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "itemsRow": {
+      "type": "ROW",
+      "grid": {
+        "style": "padding: 0 12px"
+      },
+      "sections": {
+        "blankColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-1",
+            "style": "background-color: black"
+          },
+          "sections": {
+            "blank": {
+              "type": "BLANK"
+            }
+          }
+        },
+        "contentColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-11",
+            "style": "padding: 0"
+          },
+          "sections": {
+            "itemSection": {
+              "type": "ITEMS",
+              "grid": {
+                "column": "col-11",
+                "style": "background-color: whitesmoke"
+              },
+              "style": "",
+              "label": "I Inne",
+              "anchor": "items",
+              "items": [
+                {
+                  "name": "Openshift",
+                  "image": {
+                    "alt": "Openshift",
+                    "url": "https://cdn1.iconfinder.com/data/icons/carbon-design-system-vol-5/32/logo--openshift-512.png",
+                    "style": "width: 50%"
+                  },
+                  "style": ""
+                },
+                {
+                  "name": "JUnit",
+                  "image": {
+                    "alt": "JUnit",
+                    "url": "https://junit.org/junit5/assets/img/junit5-logo.png",
+                    "style": "width: 50%"
+                  },
+                  "style": ""
+                },
+                {
+                  "name": "Python",
+                  "image": {
+                    "alt": "Python",
+                    "url": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png",
+                    "style": "width: 50%"
+                  },
+                  "style": ""
+                },
+                {
+                  "name": "Oracle DB",
+                  "image": {
+                    "alt": "Oracle DB",
+                    "url": "https://media.licdn.com/dms/image/D5612AQGTzGGnu886Vw/article-cover_image-shrink_720_1280/0/1680581578662?e=2147483647&v=beta&t=Jc3XYEXXsZNfua5Dy96AX17G59H2LrEj4mcGb6rWt60",
+                    "style": "width: 50%"
+                  },
+                  "style": ""
+                },
+                {
+                  "name": "Typescript",
+                  "image": {
+                    "alt": "Typescript",
+                    "url": "https://cdn1.iconfinder.com/data/icons/brands-5/512/fi-brands-typescript-512.png",
+                    "style": "width: 50%"
+                  },
+                  "style": ""
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "timelineRow": {
+      "type": "ROW",
+      "grid": {
+        "style": "padding: 0 12px"
+      },
+      "sections": {
+        "blankColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-1",
+            "style": "background-color: black"
+          },
+          "sections": {
+            "blank": {
+              "type": "BLANK"
+            }
+          }
+        },
+        "contentColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-11",
+            "style": "padding: 0"
+          },
+          "sections": {
+            "timeline": {
+              "type": "TIMELINE",
+              "grid": {
+                "column": "col-11",
+                "style": ""
+              },
+              "style": "",
+              "label": "Życiorys",
+              "anchor": "timelaps",
+              "eventsContainer": {
+                "hoverStyle": "background: whitesmoke",
+                "selectedStyle": {
+                  "background-color": "#b3aeae"
+                },
+                "events": [
+                  {
+                    "name": "Comarch SA  & Cloud",
+                    "description": "2017-10 - Obecnie",
+                    "subEvents": [
+                      {
+                        "name": "Starszy programista",
+                        "description": "",
+                        "subEvents": [],
+                        "details": {
+                          "content": "<b>2021-12 - obecnie</b><br><ul><li>Transformacja monolitycznej bankowości internetowej na architekture mikroserwisową</li><li>Praca z wykorzystaniem stacku: Java 11/17, Angular, Spring, JPA, Kafka, Oracle, Elasticsearch, Openshift</li><li>Projektowanie architektury poszczególnych obszarów bankowości internetowej</li><li>Tworzenie dokumentacji technicznej</li><li>Prowadzenie zespołu developerskiego</li></ul>"
+                        }
+                      },
+                      {
+                        "name": "Programista",
+                        "description": "",
+                        "subEvents": [],
+                        "details": {
+                          "content": "<b>2018-01 - 2020-12</b><br><ul><li>Utrzymanie i rozwój bankowości internetowej klientów korporacyjnych</li><li>Praca z wykorzystaniem stacku: Java 9/11, JMS, Spring, JPA, Oracle, WebSphere</li><li>Udział w wypracowaniu rozwiązań technicznych</li><li>Konsultacje analityczne</li><li>Prowadzenie programu stażowego i mentoring młodszych pracowników</li></ul>"
+                        }
+                      },
+                      {
+                        "name": "Młodszy programista",
+                        "description": "",
+                        "subEvents": [],
+                        "details": {
+                          "content": "<b>2017-10 - 2018-01</b><br><ul><li>Utrzymanie i rozwój bankowości internetowej klientów korporacyjnych</li><li>Praca z wykorzystaniem stacku: Java 9, EJB, JMS, Spring, Oracle, WebSphere</li><li>Udział w dwu tygodniowych cyklach wytwarzania oprogramowania</li></ul>"
+                        }
+                      }
+                    ],
+                    "details": {
+                      "content": ""
+                    }
+                  },
+                  {
+                    "name": "Ericpol Telecom Sp. z o.o.",
+                    "description": "2015-07 - 2016-12",
+                    "subEvents": [
+                      {
+                        "name": "Młodszy programista",
+                        "description": "",
+                        "subEvents": [],
+                        "details": {
+                          "content": "<b>2015-10 - 2016-12</b><br><ul><li>Wywtarzanie oprogramowania w metodykach zwinnych(Agile, SCRUM)</li><li>Projekt i implementacja webowego systemu korporacyjnego(Java 8, EJB, JSF, MySQL, JBoss EAP)</li><li>Tworzenie dokumentacji technicznej i manuala</li><li>Pisanie testów jednostkowych oraz manualne testowanie aplikacji</li><li>Udział w kursach i szkoleniach wprowadzających do telekomunikacji oraz LTE</li></ul>"
+                        }
+                      },
+                      {
+                        "name": "Staż",
+                        "description": "",
+                        "subEvents": [],
+                        "details": {
+                          "content": "<b>2015-07 - 2015-10</b><br><ul><li>Wywtarzanie oprogramowania w metodykach zwinnych(Agile, SCRUM)</li><li>Projekt i implementacja webowego systemu korporacyjnego(Java 8, EJB, JSF, MySQL, JBoss EAP)</li><li>Tworzenie dokumentacji technicznej i manuala</li><li>Pisanie testów jednostkowych oraz manualne testowanie aplikacji</li><li>Udział w kursach i szkoleniach wprowadzających do telekomunikacji oraz LTE</li></ul>"
+                        }
+                      }
+                    ],
+                    "details": {
+                      "content": ""
+                    }
+                  },
+                  {
+                    "name": "Politechnika Krakowska im. Tadeusza Kościuszki",
+                    "description": "2012-10 - 2018-05",
+                    "subEvents": [
+                      {
+                        "name": "Studia magisterskie",
+                        "description": "",
+                        "subEvents": [],
+                        "details": {
+                          "content": "<b>2012.10 – 2016.02</b><br>Wydziale Fizyki, Matematyki i Informatyki<br>Kierunek: informatyka<br>Specjalność: informatyka stosowana<br>Praca pt. System wspomagający tworzenie zespołu projektowego"
+                        }
+                      },
+                      {
+                        "name": "Studia inżynierskie",
+                        "description": "",
+                        "subEvents": [],
+                        "details": {
+                          "content": "<b>2016.02 - 2018.05</b><br>Wydziale Fizyki, Matematyki i Informatyki<br>Kierunek: informatyka<br>Praca pt. Aplikacja mobilna wspomagająca zarządzanie budżetem domowym"
+                        }
+                      }
+                    ],
+                    "details": {
+                      "content": ""
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "recomendationRow": {
+      "type": "ROW",
+      "grid": {
+        "style": "padding: 0 12px"
+      },
+      "sections": {
+        "blankColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-1",
+            "style": "background-color: black"
+          },
+          "sections": {
+            "blank": {
+              "type": "BLANK"
+            }
+          }
+        },
+        "contentColumn": {
+          "type": "COLUMN",
+          "grid": {
+            "column": "col-11",
+            "style": "padding: 0"
+          },
+          "sections": {
+            "recomendnedSection": {
+              "type": "ITEMS",
+              "style": "",
+              "grid": {
+                "column": "col-11",
+                "style": "background-color: whitesmoke"
+              },
+              "label": "Moje polecenia",
+              "anchor": "recomendation",
+              "items": [
+                {
+                  "name": "Fireship",
+                  "image": {
+                    "alt": "Fireship",
+                    "url": "https://yt3.googleusercontent.com/ytc/AIf8zZTUVa5AeFd3m5-4fdY2hEaKof3Byp8VruZ0f0FNEA=s176-c-k-c0x00ffffff-no-rj",
+                    "style": "width: 50%; border-radius: 50%;",
+                    "link": "https://www.youtube.com/@Fireship"
+                  },
+                  "style": ""
+                },
+                {
+                  "name": "ThePrimeTime",
+                  "image": {
+                    "alt": "ThePrimeTime",
+                    "url": "https://yt3.googleusercontent.com/ytc/AIf8zZTISnAkD2kHuVZMRVTr5QNCww-gagEU9xDdc_w6=s176-c-k-c0x00ffffff-no-rj",
+                    "style": "width: 50%; border-radius: 50%;",
+                    "link": "https://www.youtube.com/@ThePrimeTimeagen"
+                  },
+                  "style": ""
+                },
+                {
+                  "name": "Healthy Software Developer",
+                  "image": {
+                    "alt": "Healthy Software Developer",
+                    "url": "https://yt3.googleusercontent.com/24WBvu3Sk6B3pWWY2icdBbDub9oIdrXlBlxIIQ60-ppwYP5b8HCg_FAZKw-IOU--12YTvwu2GA=s176-c-k-c0x00ffffff-no-rj",
+                    "style": "width: 50%; border-radius: 50%;",
+                    "link": "https://www.youtube.com/@HealthyDev"
+                  },
+                  "style": ""
+                },
+                {
+                  "name": "Continuous Delivery",
+                  "image": {
+                    "alt": "Continuous Delivery",
+                    "url": "https://yt3.googleusercontent.com/nu3_1XlfiKUpSBvWN8stJIOA_-UtUxFI-FQnNuG0AuTXpvLzo8lcA1qZNrvF-vR6qcdY59sh=s176-c-k-c0x00ffffff-no-rj",
+                    "style": "width: 50%; border-radius: 50%;",
+                    "link": "https://www.youtube.com/@ContinuousDelivery"
+                  },
+                  "style": ""
+                },
+                {
+                  "name": "CodeAesthetic",
+                  "image": {
+                    "alt": "CodeAesthetic",
+                    "url": "https://yt3.googleusercontent.com/n5SlI5Ps1SWnuI58faTPSb2HvFKO9nZJ34ztRxRa8V-gl5KyP97oI1A5YnlkRGD_BTUThREfJw=s176-c-k-c0x00ffffff-no-rj",
+                    "style": "width: 50%; border-radius: 50%;",
+                    "link": "https://www.youtube.com/@CodeAesthetic"
+                  },
+                  "style": ""
+                }
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }
