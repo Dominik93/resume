@@ -1,17 +1,16 @@
 {
+  "id": "",
   "title": "Dominik Ślusarz",
-  "layout": {
-    "type": "BORDERED",
-    "leftBorderStyle": "background-color: black"
-  },
   "sections": {
     "menuRow": {
+      "id": "",
       "type": "ROW",
       "grid": {
         "style": "padding: 0 12px"
       },
       "sections": {
         "blankColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-1",
@@ -19,11 +18,13 @@
           },
           "sections": {
             "blank": {
+              "id": "",
               "type": "BLANK"
             }
           }
         },
         "contentColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-11",
@@ -31,6 +32,7 @@
           },
           "sections": {
             "menuSection": {
+              "id": "",
               "type": "MENU",
               "grid": {
                 "column": "col-11",
@@ -69,12 +71,14 @@
       }
     },
     "AboutMeRow": {
+      "id": "",
       "type": "ROW",
       "grid": {
         "style": "padding: 0 12px"
       },
       "sections": {
         "blankColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-1",
@@ -82,11 +86,13 @@
           },
           "sections": {
             "blank": {
+              "id": "",
               "type": "BLANK"
             }
           }
         },
         "contentColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-11",
@@ -94,6 +100,7 @@
           },
           "sections": {
             "aboutMe": {
+              "id": "",
               "type": "ABOUT_ME",
               "grid": {
                 "column": "col-11",
@@ -138,12 +145,14 @@
       }
     },
     "projectsRow": {
+      "id": "",
       "type": "ROW",
       "grid": {
         "style": "padding: 0 12px"
       },
       "sections": {
         "blankColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-1",
@@ -151,11 +160,13 @@
           },
           "sections": {
             "blank": {
+              "id": "",
               "type": "BLANK"
             }
           }
         },
         "contentColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-11",
@@ -163,12 +174,13 @@
           },
           "sections": {
             "projects": {
+              "id": "",
               "type": "PROJECTS",
               "grid": {
                 "column": "col-11",
                 "style": "background-color: whitesmoke"
               },
-              "style": "",
+              "style": "background-color: whitesmoke",
               "label": "Moje projekty",
               "anchor": "projects",
               "additionalInfo": "Pracowałem nad dziesiątkami projektów, więc wybrałem dla tylko te najciekawsze.",
@@ -265,12 +277,14 @@
       }
     },
     "skillsRow": {
+      "id": "",
       "type": "ROW",
       "grid": {
         "style": "padding: 0 12px"
       },
       "sections": {
         "blankColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-1",
@@ -278,11 +292,13 @@
           },
           "sections": {
             "blank": {
+              "id": "",
               "type": "BLANK"
             }
           }
         },
         "contentColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-11",
@@ -290,6 +306,7 @@
           },
           "sections": {
             "skillsSection": {
+              "id": "",
               "type": "SKILLS",
               "grid": {
                 "column": "col-11",
@@ -336,12 +353,14 @@
       }
     },
     "itemsRow": {
+      "id": "",
       "type": "ROW",
       "grid": {
         "style": "padding: 0 12px"
       },
       "sections": {
         "blankColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-1",
@@ -349,11 +368,13 @@
           },
           "sections": {
             "blank": {
+              "id": "",
               "type": "BLANK"
             }
           }
         },
         "contentColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-11",
@@ -361,12 +382,13 @@
           },
           "sections": {
             "itemSection": {
+              "id": "",
               "type": "ITEMS",
               "grid": {
                 "column": "col-11",
                 "style": "background-color: whitesmoke"
               },
-              "style": "",
+              "style": "background-color: whitesmoke",
               "label": "I Inne",
               "anchor": "items",
               "items": [
@@ -422,12 +444,14 @@
       }
     },
     "timelineRow": {
+      "id": "",
       "type": "ROW",
       "grid": {
         "style": "padding: 0 12px"
       },
       "sections": {
         "blankColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-1",
@@ -435,11 +459,13 @@
           },
           "sections": {
             "blank": {
+              "id": "",
               "type": "BLANK"
             }
           }
         },
         "contentColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-11",
@@ -447,6 +473,7 @@
           },
           "sections": {
             "timeline": {
+              "id": "",
               "type": "TIMELINE",
               "grid": {
                 "column": "col-11",
@@ -552,12 +579,14 @@
       }
     },
     "recomendationRow": {
+      "id": "",
       "type": "ROW",
       "grid": {
         "style": "padding: 0 12px"
       },
       "sections": {
         "blankColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-1",
@@ -565,11 +594,13 @@
           },
           "sections": {
             "blank": {
+              "id": "",
               "type": "BLANK"
             }
           }
         },
         "contentColumn": {
+          "id": "",
           "type": "COLUMN",
           "grid": {
             "column": "col-11",
@@ -577,8 +608,9 @@
           },
           "sections": {
             "recomendnedSection": {
+              "id": "",
               "type": "ITEMS",
-              "style": "",
+              "style": "background-color: whitesmoke",
               "grid": {
                 "column": "col-11",
                 "style": "background-color: whitesmoke"
