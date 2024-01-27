@@ -52,12 +52,12 @@
                     "anchor": "aboutme"
                   },
                   {
-                    "label": "Umiejętności",
-                    "anchor": "skills"
-                  },
-                  {
                     "label": "Moje projekty",
                     "anchor": "projects"
+                  },
+                  {
+                    "label": "Umiejętności",
+                    "anchor": "skills"
                   },
                   {
                     "label": "Życiorys",
@@ -261,7 +261,7 @@
                   },
                   "imageChangeInterval": 5000,
                   "sourceCode": "https://github.com/Dominik93/personal-space",
-                  "demoUrl": "https://dominik93.github.io/personal-space",
+                  "demoUrl": "https://dominik93.github.io/personal-space/browser/",
                   "images": [
                     {
                       "url": "https://dominik93.github.io/personal-space/browser/favicon.ico",
