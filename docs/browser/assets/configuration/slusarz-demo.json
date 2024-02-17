@@ -70,7 +70,7 @@
         }
       }
     },
-    "AboutMeRow": {
+    "aboutMeRow": {
       "id": "",
       "type": "ROW",
       "grid": {
@@ -110,7 +110,7 @@
               "label": "O mnie",
               "anchor": "aboutme",
               "description": {
-                "content": "W trakcie pisania...",
+                "content": "Full-stack developer z 7+ letnim doświadczeniem backend i 2+ letnim doświadczeniem frontend. ",
                 "style": "font-size: x-large"
               },
               "image": {
@@ -118,25 +118,35 @@
                 "alt": "My Picture",
                 "style": "width: 400px; border-radius: 50%;"
               },
-              "socialMediaStyle": "display: inline; margin-right: 15px;",
-              "socialMedia": [
+              "linksStyle": "display: inline; margin-right: 15px;",
+              "links": [
                 {
                   "name": "GitHub",
                   "link": "https://github.com/Dominik93",
                   "icon": "https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-1024.png",
-                  "style": "width: 50px;"
+                  "style": "width: 50px;",
+                  "downloadbale": false
                 },
                 {
                   "name": "LinkedIn",
                   "link": "https://www.linkedin.com/in/dominikslusarz/",
                   "icon": "https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-1024.png",
-                  "style": "width: 50px;"
+                  "style": "width: 50px;",
+                  "downloadbale": false
                 },
                 {
                   "name": "Mail",
                   "link": "mailto:slusarz.dominik@gmail.com",
                   "icon": "https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/mail-512.png",
-                  "style": "width: 50px;"
+                  "style": "width: 50px;",
+                  "downloadbale": false
+                },
+                {
+                  "name": "CV",
+                  "link": "https://github.com/Dominik93/resume/blob/main/cv-pl.pdf?raw=true",
+                  "icon": "https://cdn2.iconfinder.com/data/icons/search-outline-24-px/24/files_and_folders_business_and_finance_loupe_CV_curriculum_vitae-1024.png",
+                  "style": "width: 50px;",
+                  "downloadbale": true
                 }
               ]
             }
@@ -489,7 +499,7 @@
                 },
                 "events": [
                   {
-                    "name": "Comarch SA  & Cloud",
+                    "name": "Comarch & Comarch Cloud",
                     "description": "2017-10 - Obecnie",
                     "subEvents": [
                       {
@@ -505,7 +515,7 @@
                         "description": "",
                         "subEvents": [],
                         "details": {
-                          "content": "<b>2018-01 - 2021-12</b><br><ul><li>Utrzymanie i rozwój bankowości internetowej klientów korporacyjnych</li><li>Praca z wykorzystaniem stacku: Java 9/11, JMS, Spring, JPA, Oracle, WebSphere</li><li>Udział w wypracowaniu rozwiązań technicznych</li><li>Konsultacje analityczne</li><li>Prowadzenie programu stażowego i mentoring młodszych pracowników</li></ul>"
+                          "content": "<b>2018-01 - 2021-12</b><br><ul><li>Utrzymanie i rozwój bankowości internetowej klientów korporacyjnych</li><li>Praca z wykorzystaniem stacku: Java 9/11, JMS, Spring, JPA, Oracle, WebSphere</li><li>Udział w wypracowywanie rozwiązań technicznych</li><li>Konsultacje analityczne</li><li>Prowadzenie programu stażowego i mentoring młodszych pracowników</li></ul>"
                         }
                       },
                       {
@@ -522,7 +532,7 @@
                     }
                   },
                   {
-                    "name": "Ericpol Telecom Sp. z o.o.",
+                    "name": "Ericpol Telecom",
                     "description": "2015-07 - 2016-12",
                     "subEvents": [
                       {
@@ -530,7 +540,7 @@
                         "description": "",
                         "subEvents": [],
                         "details": {
-                          "content": "<b>2015-10 - 2016-12</b><br><ul><li>Wywtarzanie oprogramowania w metodykach zwinnych(Agile, SCRUM)</li><li>Projekt i implementacja webowego systemu korporacyjnego(Java 8, EJB, JSF, MySQL, JBoss EAP)</li><li>Tworzenie dokumentacji technicznej i manuala</li><li>Pisanie testów jednostkowych oraz manualne testowanie aplikacji</li><li>Udział w kursach i szkoleniach wprowadzających do telekomunikacji oraz LTE</li></ul>"
+                          "content": "<b>2015-10 - 2016-12</b><br><ul><li>Wytwarzanie oprogramowania w metodykach zwinnych(Agile, SCRUM)</li><li>Projekt i implementacja webowego systemu korporacyjnego(Java 8, EJB, JSF, MySQL, JBoss EAP)</li><li>Tworzenie dokumentacji technicznej i manuala</li><li>Pisanie testów jednostkowych oraz manualne testowanie aplikacji</li><li>Udział w kursach i szkoleniach wprowadzających do telekomunikacji oraz LTE</li></ul>"
                         }
                       },
                       {
@@ -538,7 +548,7 @@
                         "description": "",
                         "subEvents": [],
                         "details": {
-                          "content": "<b>2015-07 - 2015-10</b><br><ul><li>Wywtarzanie oprogramowania w metodykach zwinnych(Agile, SCRUM)</li><li>Projekt i implementacja webowego systemu korporacyjnego(Java 8, EJB, JSF, MySQL, JBoss EAP)</li><li>Tworzenie dokumentacji technicznej i manuala</li><li>Pisanie testów jednostkowych oraz manualne testowanie aplikacji</li><li>Udział w kursach i szkoleniach wprowadzających do telekomunikacji oraz LTE</li></ul>"
+                          "content": "<b>2015-07 - 2015-10</b><br><ul><li>Wytwarzanie oprogramowania w metodykach zwinnych (Agile, SCRUM)</li><li>Projekt i implementacja webowego systemu korporacyjnego(Java 8, EJB, JSF, MySQL, JBoss EAP)</li><li>Tworzenie dokumentacji technicznej i manuala</li><li>Pisanie testów jednostkowych oraz manualne testowanie aplikacji</li><li>Udział w kursach i szkoleniach wprowadzających do telekomunikacji oraz LTE</li></ul>"
                         }
                       }
                     ],
@@ -547,7 +557,7 @@
                     }
                   },
                   {
-                    "name": "Politechnika Krakowska im. Tadeusza Kościuszki",
+                    "name": "Politechnika Krakowska",
                     "description": "2012-10 - 2018-05",
                     "subEvents": [
                       {

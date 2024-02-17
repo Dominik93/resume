@@ -110,7 +110,7 @@
               "label": "About me",
               "anchor": "aboutme",
               "description": {
-                "content": "Under development...",
+                "content": "Full-stack developer with 7+ years of backend experience and 2+ years of frontend experience.",
                 "style": "font-size: x-large"
               },
               "image": {
@@ -118,25 +118,35 @@
                 "alt": "My Picture",
                 "style": "width: 400px; border-radius: 50%;"
               },
-              "socialMediaStyle": "display: inline; margin-right: 15px;",
-              "socialMedia": [
+              "linksStyle": "display: inline; margin-right: 15px;",
+              "links": [
                 {
                   "name": "GitHub",
                   "link": "https://github.com/Dominik93",
                   "icon": "https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-1024.png",
-                  "style": "width: 50px;"
+                  "style": "width: 50px;",
+                  "downloadbale": false
                 },
                 {
                   "name": "LinkedIn",
                   "link": "https://www.linkedin.com/in/dominikslusarz/",
                   "icon": "https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-1024.png",
-                  "style": "width: 50px;"
+                  "style": "width: 50px;",
+                  "downloadbale": false
                 },
                 {
                   "name": "Mail",
                   "link": "mailto:slusarz.dominik@gmail.com",
                   "icon": "https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/mail-512.png",
-                  "style": "width: 50px;"
+                  "style": "width: 50px;",
+                  "downloadbale": false
+                },
+                {
+                  "name": "CV",
+                  "link": "https://github.com/Dominik93/resume/blob/main/resume-en.pdf?raw=true",
+                  "icon": "https://cdn2.iconfinder.com/data/icons/search-outline-24-px/24/files_and_folders_business_and_finance_loupe_CV_curriculum_vitae-1024.png",
+                  "style": "width: 50px;",
+                  "downloadbale": true
                 }
               ]
             }
@@ -489,7 +499,7 @@
                 },
                 "events": [
                   {
-                    "name": "Comarch SA  & Cloud",
+                    "name": "Comarch & Comarch Cloud",
                     "description": "2017-10 - Obecnie",
                     "subEvents": [
                       {
@@ -522,7 +532,7 @@
                     }
                   },
                   {
-                    "name": "Ericpol Telecom Sp. z o.o.",
+                    "name": "Ericpol Telecom",
                     "description": "2015-07 - 2016-12",
                     "subEvents": [
                       {
@@ -547,7 +557,7 @@
                     }
                   },
                   {
-                    "name": "Politechnika Krakowska im. Tadeusza Kościuszki",
+                    "name": "Politechnika Krakowska",
                     "description": "2012-10 - 2018-05",
                     "subEvents": [
                       {
