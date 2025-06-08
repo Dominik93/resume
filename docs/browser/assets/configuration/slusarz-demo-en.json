@@ -261,6 +261,30 @@
                   ]
                 },
                 {
+                  "name": "Gitlab Project manager",
+                  "tag": "WEB",
+                  "description": {
+                    "content": "Using Gitlab API transfer projects to local configuration and perform actions like clone/pull, search for text in projects and alot more"
+                  },
+                  "details": {
+                    "content": "Under development..."
+                  },
+                  "imageChangeInterval": 5000,
+                  "sourceCode": "https://github.com/Dominik93/gitlab-projects-manager",
+                  "images": [
+                    {
+                      "url": "https://images.ctfassets.net/xz1dnu24egyd/6P0YId0C3ofFPyO0FaBhxl/4cd062515399f22779171cf661097319/gitlab-logo-600.png",
+                      "alt": "Logo",
+                      "style": "width: 100%;"
+                    },
+                    {
+                      "url": "https://github.com/Dominik93/gitlab-projects-manager/blob/main/docs/web.png",
+                      "alt": "Start page",
+                      "style": "width: 100%;"
+                    }
+                  ]
+                },
+                {
                   "name": "Personal space",
                   "tag": "WEB",
                   "description": {
@@ -652,19 +676,19 @@
                   "name": "Healthy Software Developer",
                   "image": {
                     "alt": "Healthy Software Developer",
-                    "url": "https://yt3.googleusercontent.com/24WBvu3Sk6B3pWWY2icdBbDub9oIdrXlBlxIIQ60-ppwYP5b8HCg_FAZKw-IOU--12YTvwu2GA=s176-c-k-c0x00ffffff-no-rj",
+                    "url": "https://yt3.googleusercontent.com/AKpFhAw3hG44tz0dngaGo2fNnmaFDQ7hPtfJt9HDF68RyX6SXKLWu6HCCzNuzSfsBHhTaaGv2w=s160-c-k-c0x00ffffff-no-rj",
                     "style": "width: 50%; border-radius: 50%;",
                     "link": "https://www.youtube.com/@HealthyDev"
                   },
                   "style": ""
                 },
                 {
-                  "name": "Continuous Delivery",
+                  "name": "Modern Software Engineering",
                   "image": {
-                    "alt": "Continuous Delivery",
-                    "url": "https://yt3.googleusercontent.com/nu3_1XlfiKUpSBvWN8stJIOA_-UtUxFI-FQnNuG0AuTXpvLzo8lcA1qZNrvF-vR6qcdY59sh=s176-c-k-c0x00ffffff-no-rj",
+                    "alt": "Modern Software Engineering",
+                    "url": "https://yt3.googleusercontent.com/4nMvDCKd_6ox1Fmapo_J7I_BCATVVPUOOTUa0CJoBua6-sJkVMdp90aKiEzB-YkH28oQqpkbhA=s160-c-k-c0x00ffffff-no-rj",
                     "style": "width: 50%; border-radius: 50%;",
-                    "link": "https://www.youtube.com/@ContinuousDelivery"
+                    "link": "https://www.youtube.com/@ModernSoftwareEngineeringYT"
                   },
                   "style": ""
                 },
@@ -672,7 +696,7 @@
                   "name": "CodeAesthetic",
                   "image": {
                     "alt": "CodeAesthetic",
-                    "url": "https://yt3.googleusercontent.com/n5SlI5Ps1SWnuI58faTPSb2HvFKO9nZJ34ztRxRa8V-gl5KyP97oI1A5YnlkRGD_BTUThREfJw=s176-c-k-c0x00ffffff-no-rj",
+                    "url": "https://yt3.googleusercontent.com/fKq1-wK3gkERFz9MH5bEvF73k9NUORswE2wxQ6YkCWzY7yMyYvRleubgUt_a8B8tpIyh_KGX=s160-c-k-c0x00ffffff-no-rj",
                     "style": "width: 50%; border-radius: 50%;",
                     "link": "https://www.youtube.com/@CodeAesthetic"
                   },
